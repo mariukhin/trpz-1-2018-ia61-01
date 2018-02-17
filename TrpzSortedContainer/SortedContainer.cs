@@ -41,7 +41,7 @@ namespace TrpzSortedContainer
 			myint[i] = myint[j];
 			myint[j] = glass;
 		}
-
+		//Доп
 		//Cортировка пузырьком
 		public static int[] BubbleSort(int[] arr)
 		{
