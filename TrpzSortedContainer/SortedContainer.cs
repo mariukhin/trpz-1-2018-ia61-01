@@ -35,12 +35,12 @@ namespace TrpzSortedContainer
             }
             return arr;
         }
-
         private static void Swap(int[] myint, int i, int j)
         {
             int glass = myint[i];
             myint[i] = myint[j];
             myint[j] = glass;
         }
+        //изменение
     }
 }
