@@ -1,0 +1,5 @@
+#ignore bin, obj, properties
+TrpzSortedContainer/bin
+TrpzSortedContainer/obj
+TrpzSortedContainer/Properties
+.vs
