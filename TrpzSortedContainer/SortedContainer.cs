@@ -16,7 +16,14 @@ namespace TrpzSortedContainer
             {
                 index = i;
                 temp = arr[i];
-                
+                for (int j = i + 1; j < arr.Length; ++j)
+                {
+                    if (arr[j] < temp)
+                    {
+                        index = j;
+                        temp = arr[j];
+                    }
+                }
                 arr[index] = arr[i];
                 arr[i] = temp;
             }
