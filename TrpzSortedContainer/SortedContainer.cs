@@ -11,7 +11,9 @@ namespace TrpzSortedContainer
         //Сортировка вставками
         public static int[] InsertionSort(int[] arr)
         {
-           
+            int index, temp;
+            
+            return arr;
         }
     }
 }
