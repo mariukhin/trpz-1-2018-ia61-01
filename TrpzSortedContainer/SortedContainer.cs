@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +8,7 @@ namespace TrpzSortedContainer
 {
 	public class SortedContainer
 	{
+
 		//Сортировка перемешиванием
 		public static int[] ShakerSort(int[] arr)
 		{
@@ -41,7 +42,6 @@ namespace TrpzSortedContainer
 			myint[i] = myint[j];
 			myint[j] = glass;
 		}
-		//Доп
 		//Cортировка пузырьком
 		public static int[] BubbleSort(int[] arr)
 		{
@@ -60,5 +60,7 @@ namespace TrpzSortedContainer
 			}
 			return arr;
 		}
-	}
+  }
 }
+
+
